@@ -14,13 +14,13 @@ import qualified Cli.File as File
 usage :: String
 usage =
   unlines [
-      "USAGE: hcat [OPTIONS] [ARGUMENTS]"
+      "USAGE: hcat2 [OPTIONS] [ARGUMENTS]"
     , ""
     , "  A simple cat program."
     , ""
     , "EXAMPLES:"
-    , "  hcat --help"
-    , "  hcat /path/to/file1 /path/to/file2 ..."
+    , "  hcat2 --help"
+    , "  hcat2 /path/to/file1 /path/to/file2 ..."
     , ""
     , "OPTIONS:"
     , "  -h, --help       Display this help."
